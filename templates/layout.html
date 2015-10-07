@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../static/css/styles.css" media="screen">
+    <title>{{template "title"}}</title>
+  </head>
+  <body>
+    <header>
+      {{template "header"}}
+    </header>
+    <div class="container">
+      <div class="career-links">
+        <ul>
+          <li>
+            <a href="https://github.com/blaqbern">
+              <svg>
+                <use class="logo github" xlink:href="../static/images/brand-icons.svg#github-logo"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/pub/christopher-blackburn/36/834/431">
+              <svg>
+                <use class="logo linkedin" xlink:href="../static/images/brand-icons.svg#linkedin-logo"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://codepen.io/blaqbern">
+              <svg>
+                <use class="logo codepen" xlink:href="../static/images/brand-icons.svg#codepen-logo"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      {{template "body"}}
+    </div>
+  </body>
+</html>
